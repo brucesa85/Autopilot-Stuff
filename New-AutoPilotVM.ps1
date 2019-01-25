@@ -19,7 +19,11 @@
 		https://blogs.technet.microsoft.com/mniehaus/2018/10/25/speeding-up-windows-autopilot-for-existing-devices/
 		
     .EXAMPLE
-        
+    Passing all variables
+    	.\New-AutoPilotVM.ps1 -BaseName AutoPilot- -CopyAutoPilotFiles -RefVHD "Your VHDXFILE" -VMNetwork "Your Virtual adapter name"
+    When you hard code the variables you can just run the below
+         .\New-AutoPilotVM.ps1 -BaseName AutoPilot- -CopyAutoPilotFiles
+	 
     .HISTORY  
 		#Version 1.0 Added parameter $VMName MANDATORY
 Version 1.1 Removed mandatory parameter and added support to create a VM by hard coding a name, or using the next number available.
