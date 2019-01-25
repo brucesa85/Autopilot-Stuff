@@ -71,7 +71,7 @@ $scriptPath = $PSScriptRoot
 if ($CopyAutoPilotFiles)
 {
     $Unattend = "$scriptPath\ConfigFiles\UnattendAutoPilot.xml"
-    $SetupComplete = "$scriptPath\ConfigFiles\SetupComplete.cmd"
+    #$SetupComplete = "$scriptPath\ConfigFiles\SetupComplete.cmd"
     $AutopilotProfile = "$scriptPath\ConfigFiles\AutopilotConfigurationFile.json"
     $GetInfo = "$scriptPath\ConfigFiles\Get-AutopilotInfo.ps1"
     $AutoInfo = "$scriptPath\ConfigFiles\Auto-Info.cmd"
