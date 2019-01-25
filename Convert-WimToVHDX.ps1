@@ -15,7 +15,9 @@
     .LINK
         
     .EXAMPLE
-        
+    
+        .\Convert-WimToVHDX.ps1 -vhdxName "NewFileName" -SourcePath "D:\Setup\OSBuilder\OSMedia\Windows 10 Enterprise x64 1809 17763.253\OS\sources\install.wim" -vhdxPath "D:\VHDXFiles"
+    
     .HISTORY         
     
 #>
